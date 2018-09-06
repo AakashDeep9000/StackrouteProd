@@ -1,0 +1,20 @@
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+img{
+    width:200px;
+    height:200px;
+    margin-left: 45px;
+}
+ h3{
+     margin-left: 10px;
+ }
+
+ .move{
+    margin-left: 10px;
+ }
+ d-flex{
+     width: 100px;
+ }

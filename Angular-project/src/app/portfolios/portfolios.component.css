@@ -1,0 +1,74 @@
+body{
+    margin-top: -20px;
+    background-image: url('https://wallpapertag.com/wallpaper/full/7/2/8/118913-full-size-white-wood-background-1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.profileSection {
+    margin-top: 80px;
+}
+
+#addProfile {
+    background: #00b3b3;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.drop li a:hover {
+    background: #00b3b3;
+    color: white;
+}
+
+.flex-container{
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -90px;
+    /* align-items: stretch; */
+}
+
+.column {
+    flex: 29%;
+    max-width: 29%;
+    margin: 10px;
+}
+
+.column2{
+    flex: 65%;
+    max-width: 65%;
+    margin: 10px;
+}
+
+.column > * {
+    /* margin: 10px; */
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 40%;
+        max-width: 40%;
+    }
+
+    .column > *{
+        size: 80%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .column > *{
+        size: 10%;
+        
+    }
+}
+

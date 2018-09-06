@@ -1,0 +1,11 @@
+
+<div class="container d-flex justify-content-center">
+  <form class="form-inline" (submit)="getResults(searchQuery)">
+    <input type="text" class="form-control" placeholder="Search for Employees" [(ngModel)]="searchQuery" name="searchQuery">
+    <button type="submit" class="btn">Search</button>
+  </form>
+</div> 
+
+<div>
+  {{name[0]}}
+</div>
